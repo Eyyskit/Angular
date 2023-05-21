@@ -1,0 +1,86 @@
+<div class="header">
+  <a href="#default" class="logo">Q&A</a>
+  <div class="header-right">
+    <a class="active" href="#home">Login</a>
+    <a href="#contact">Logout</a>
+    
+  </div>
+</div> 
+
+<div class="main-box">
+
+  
+
+  <div class="container">
+    <header>
+      <h1>Is it easy for you to paint your house</h1>
+  
+    </header>
+    <main>
+      <h2>Number of UpVotes : {{ voteCounter}} </h2>
+      
+    </main>
+    <div class="but">
+      <button (click)="voteIncrease()">UpVote</button>
+      <button (click)="voteDecrease()">Down Vote</button>
+      <button (click)="voteReset()">Reset</button>
+    </div>
+  </div>   
+  
+  <h1></h1>
+  <div class="container">
+    <header>
+      <h1>Is it easy for you to fix your back yard</h1>
+  
+    </header>
+    <main>
+      <h2>Number of UpVotes : {{ voteCounter1}} </h2>
+      
+    </main>
+    <div class="but">
+      <button (click)="voteIncrease1()">UpVote</button>
+      <button (click)="voteDecrease1()">Down Vote</button>
+      <button (click)="voteReset1()">Reset</button>
+    </div>
+  </div>    
+    
+  
+  <h1></h1>
+  
+  <div class="container">
+    <header>
+      <h1>Is it easy for you to build your dog pen</h1>
+  
+    </header>
+    <main>
+      <h2>Number of UpVotes : {{ voteCounter2}} </h2>
+      
+    </main>
+    <div class="but">
+      <button (click)="voteIncrease2()">UpVote</button>
+      <button (click)="voteDecrease2()">Down Vote</button>
+      <button (click)="voteReset2()">Reset</button>
+    </div>  
+  </div>
+  
+  
+  <h1></h1>
+  <div class="container">
+    <header>
+      <h1>Is it easy for you to arrange your new furniture</h1>
+  
+    </header>
+    <main>
+      <h2>Number of UpVotes : {{ voteCounter3}} </h2>
+      
+    </main>
+    <div class="but">
+      <button (click)="voteIncrease3()">Up Vote </button>
+      <button (click)="voteDecrease3()">DownVote</button>
+      <button (click)="voteReset3()">Reset</button>
+    </div>
+  </div>    
+
+</div>
+
+
